@@ -50,7 +50,8 @@ const Contact = () => {
     return (
         <footer id="contact" className="bg-black relative pt-32 pb-10 overflow-hidden">
             {/* Background Gradients */}
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-96 bg-purple-900/20 blur-[100px] rounded-full pointer-events-none mix-blend-screen" />
+            {/* Background Gradients */}
+            {/* Purple light removed */}
 
             <div className="container mx-auto px-4 relative z-10">
                 <div className="max-w-4xl mx-auto text-center mb-24">
@@ -136,10 +137,15 @@ const Contact = () => {
                                     e.preventDefault();
                                 }
                             }}
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
+                            initial={{ opacity: 0, scale: 0.8, y: 20 }}
+                            whileInView={{ opacity: 1, scale: 1, y: 0 }}
                             viewport={{ once: true }}
-                            transition={{ delay: 0.3 + (index * 0.1) }}
+                            transition={{ 
+                                duration: 0.5,
+                                delay: 0.3 + (index * 0.1),
+                                type: "spring",
+                                bounce: 0.4
+                            }}
                             className={`group flex flex-col items-center justify-center p-8 bg-white/5 border border-white/5 rounded-2xl transition-all duration-300 ${social.bg} ${social.border}`}
                         >
                             <div className={`mb-4 text-gray-400 transition-colors ${social.color}`}>
