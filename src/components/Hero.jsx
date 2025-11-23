@@ -71,7 +71,7 @@ const Hero = () => {
                             }
                         }}
                     >
-                        Book a Call <ArrowRight className="inline-block ml-2 w-5 h-5" />
+                        Contact Me <ArrowRight className="inline-block ml-2 w-5 h-5" />
                     </MagneticButton>
                 </motion.div>
             </div>
