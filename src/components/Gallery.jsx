@@ -14,7 +14,7 @@ const thumbnails = [
     { id: 9, title: "Pyramids Concept", image: "/thumbnails/pyramids2.jpg" },
     { id: 10, title: "Remake Project", image: "/thumbnails/remake1.jpg" },
     { id: 11, title: "Squid Game", image: "/thumbnails/squidgame.png" },
-    { id: 12, title: "Zmoovey Project", image: "/thumbnails/zmoovey37.jpg" },
+    { id: 12, title: "Zmoovey Project", image: "/thumbnails/zmoovey38.jpg" },
     { id: 13, title: "Salah To The World", image: "/thumbnails/salahtotheworld2.jpg" },
     { id: 14, title: "Subnautica Below Zero", image: "/thumbnails/subnauticabelowzero.jpg" },
     { id: 15, title: "Zmoovy Design", image: "/thumbnails/zmoovy31.jpg" },
