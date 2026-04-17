@@ -5,7 +5,6 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Stats from './components/Stats';
 import Gallery from './components/Gallery';
-import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 
@@ -21,7 +20,6 @@ function App() {
             <Stats />
           </section>
           <Gallery />
-          <Services />
           <Testimonials />
           <Contact />
         </main>

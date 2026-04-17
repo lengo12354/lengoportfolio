@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Britanica', 'system-ui', 'sans-serif'],
-        display: ['Britanica', 'system-ui', 'sans-serif'],
+        sans: ['Arp', 'system-ui', 'sans-serif'],
+        display: ['Arp', 'system-ui', 'sans-serif'],
       },
       colors: {
         'neon-blue': '#2563eb',

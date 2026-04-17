@@ -25,7 +25,7 @@ const reviews = [
 
 const Testimonials = () => {
     return (
-        <section className="py-32  border-t border-white/5">
+        <section id="feedback" className="py-32  border-t border-white/5">
             <div className="container mx-auto px-4">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -33,7 +33,7 @@ const Testimonials = () => {
                     viewport={{ once: true }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-4xl md:text-6xl font-bold font-display text-white mb-6">Client Love</h2>
+                    <h2 className="text-4xl md:text-6xl font-bold font-display text-white mb-6">Client Feedback</h2>
                 </motion.div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

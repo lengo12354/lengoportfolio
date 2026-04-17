@@ -88,7 +88,7 @@ const Hero = () => {
                         </span>
                     </h1>
 
-                    <p className="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto mb-12 font-medium leading-relaxed">
+                    <p className="text-gray-300 text-lg md:text-xl max-w-4xl mx-auto mb-12 font-medium leading-relaxed">
                         I engineer high-converting thumbnails that aggressively stop the scroll and hijack attention.
                         Trusted by top creators to drive millions of views.
                     </p>
