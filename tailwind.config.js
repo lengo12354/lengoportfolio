@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         sans: ['Arp', 'system-ui', 'sans-serif'],
         display: ['Arp', 'system-ui', 'sans-serif'],
+        coolvetica: ['Coolvetica', 'sans-serif'],
       },
       colors: {
         'neon-blue': '#2563eb',

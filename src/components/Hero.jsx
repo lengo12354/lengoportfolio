@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { useLenis } from 'lenis/react';
 import MagneticButton from './MagneticButton';
 import { ArrowRight } from 'lucide-react';
-import LightWave from './LightWave';
 
 
 const Hero = () => {
@@ -12,16 +11,19 @@ const Hero = () => {
     return (
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0a0118] px-4">
             
-            {/* LightWave Interactive Background */}
-            <div className="absolute inset-0 z-0 pointer-events-auto">
-                <LightWave 
-                    baseColor="#9333ea" 
-                    accentColor="#4c1d95" 
-                    opacity={0.8} 
-                    backgroundColor="#0a0118" 
-                    interactive={true} 
-                />
-            </div>
+            {/* Hero Background Image */}
+            <div
+                className="absolute inset-0 z-0"
+                style={{
+                    backgroundImage: "url('/WEBSITEHEROBACKROUND.png')",
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                }}
+            />
+
+            {/* Dark Overlay for text readability */}
+            <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
 
             {/* Main Centerpiece Content */}
             <div className="relative z-20 w-full max-w-5xl mx-auto flex flex-col items-center justify-center mt-8 md:mt-10">

@@ -3,25 +3,31 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 
 const thumbnails = [
+    // السطر الأول: اللي بقاو
     { id: 1, title: "Thumbnail 1", image: "/thumbnails/thumb1.jpg" },
-    { id: 2, title: "Thumbnail 2", image: "/thumbnails/thumb2.jpg" },
-    { id: 3, title: "Thumbnail 3", image: "/thumbnails/thumb3.jpg" },
-
     { id: 5, title: "Thumbnail 5", image: "/thumbnails/thumb5.jpg" },
-    { id: 6, title: "Thumbnail 6", image: "/thumbnails/thumb6.jpg" },
-    { id: 7, title: "Solo Leveling", image: "/thumbnails/SOLOLEVELING.jpg" },
-    { id: 8, title: "Podcast Design", image: "/thumbnails/podcastjinata7mad.jpg" },
-    { id: 9, title: "Pyramids Concept", image: "/thumbnails/pyramids2.jpg" },
-    { id: 10, title: "Remake Project", image: "/thumbnails/remake1.jpg" },
     { id: 11, title: "Squid Game", image: "/thumbnails/squidgame.png" },
+
+    // السطر الثاني: البنات
+    { id: 7, title: "Solo Leveling", image: "/thumbnails/SOLOLEVELING.jpg" },
+    { id: 10, title: "Remake Project", image: "/thumbnails/remake1.jpg" },
     { id: 14, title: "Subnautica Below Zero", image: "/thumbnails/subnauticabelowzero.jpg" },
+
+    // السطر الثالث: 3 اللي دورتي عليهم (Rappers)
+    { id: 3, title: "Thumbnail 3", image: "/thumbnails/thumb3.jpg" },
+    { id: 6, title: "Thumbnail 6", image: "/thumbnails/thumb6.jpg" },
     { id: 15, title: "Zmoovy Design", image: "/thumbnails/zmoovy31.jpg" },
+
+    // باقي التصاور
     { id: 16, title: "New Project 1", image: "/thumbnails/new_thumb_1.jpg" },
     { id: 17, title: "New Project 2", image: "/thumbnails/new_thumb_2.jpg" },
     { id: 18, title: "New Project 3", image: "/thumbnails/new_thumb_3.jpg" },
     { id: 19, title: "Zmoovy 44", image: "/thumbnails/zmoovey44.jpg" },
     { id: 20, title: "Zmoovy 45", image: "/thumbnails/zmoovey45.jpg" },
     { id: 21, title: "Zmoovy 53", image: "/thumbnails/zmoovey53.jpg" },
+    { id: 22, title: "Subscribers", image: "/thumbnails/WWR1.jpg" },
+    { id: 23, title: "Reptiles", image: "/thumbnails/WWR3.jpg" },
+    { id: 24, title: "Where Are They Now", image: "/thumbnails/WWR5.jpg" },
 ];
 
 const Gallery = () => {
