@@ -16,8 +16,8 @@ const reviews = [
         image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Tech"
     },
     {
-        name: "Genetics",
-        role: "23.7K ubs",
+        name: "Wickens Wicked",
+        role: "430K subs",
         content: "We saw an immediate and measurable impact. Our channel's CTR across the board increased by 4 points after Lengo DZN took over. It's an investment that pays for itself ten times over.",
         image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Gaming"
     }
