@@ -10,8 +10,8 @@ const reviews = [
         image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex"
     },
     {
-        name: "farouk life",
-        role: "2.07M Subs",
+        name: "Alex Jones",
+        role: "58.3K subs",
         content: "Lengo is pure fire! The designs are aggressive, bold, and literally stop the scroll. My latest video hit 188k views in 48 hours, thanks solely to the thumbnail design",
         image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Tech"
     },
