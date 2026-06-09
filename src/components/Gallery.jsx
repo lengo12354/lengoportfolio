@@ -28,6 +28,12 @@ const thumbnails = [
     { id: 22, title: "Subscribers", image: "/thumbnails/WWR1.jpg" },
     { id: 23, title: "Reptiles", image: "/thumbnails/WWR3.jpg" },
     { id: 24, title: "Where Are They Now", image: "/thumbnails/WWR5.jpg" },
+    { id: 25, title: "Where Are They Now", image: "/thumbnails/WWR8A.jpg" },
+    { id: 26, title: "Where Are They Now", image: "/thumbnails/WWR8B2.jpg" },
+    { id: 27, title: "Where Are They Now", image: "/thumbnails/WWR8C.jpg" },
+    { id: 28, title: "Where Are They Now", image: "/thumbnails/alex4.jpg" },
+    { id: 29, title: "Where Are They Now", image: "/thumbnails/alex1.jpg" },
+    { id: 30, title: "Where Are They Now", image: "/thumbnails/alex2.jpg" },
 ];
 
 const Gallery = () => {
