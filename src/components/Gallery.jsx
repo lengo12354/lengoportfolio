@@ -36,7 +36,7 @@ const thumbnails = [
     { id: 27, title: "Where Are They Now", image: "/thumbnails/WWR22A.jpg" },
     { id: 27, title: "Where Are They Now", image: "/thumbnails/WWR18B.jpg" },
     { id: 27, title: "Where Are They Now", image: "/thumbnails/WWR11B.jpg" },
-    { id: 27, title: "Where Are They Now", image: "/thumbnails/WWR21D.jpg" },
+    { id: 27, title: "Where Are They Now", image: "/thumbnails/WWR21DV2.jpg" },
     { id: 28, title: "Where Are They Now", image: "/thumbnails/alex4.jpg" },
     { id: 29, title: "Where Are They Now", image: "/thumbnails/alex1.jpg" },
     { id: 30, title: "Where Are They Now", image: "/thumbnails/alex2.jpg" },
