@@ -3,10 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 
 const thumbnails = [
-    // السطر الأول: اللي بقاو
-    { id: 1, title: "Thumbnail 1", image: "/thumbnails/thumb1.jpg" },
-    { id: 5, title: "Thumbnail 5", image: "/thumbnails/thumb5.jpg" },
-    { id: 11, title: "Squid Game", image: "/thumbnails/squidgame.png" },
 
     // السطر الثاني: البنات
     { id: 7, title: "Solo Leveling", image: "/thumbnails/SOLOLEVELING.jpg" },
